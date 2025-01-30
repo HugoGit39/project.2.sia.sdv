@@ -12,7 +12,6 @@
 # * 1.0 library ----
 
 library('httr')
-library('ggplot2')
 library('lubridate')
 library('rjson')
 library('here')
