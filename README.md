@@ -3,7 +3,7 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 <p align="center">
-  <img src="[https://stress-in-action.nl/wp-content/uploads/2023/04/sia-logo.png](https://info.sportdatavalley.nl/wp-content/uploads/Sport-Data-Valley-Infographic-english.gif)" alt="SIA Logo">
+  <img src="https://info.sportdatavalley.nl/wp-content/uploads/Sport-Data-Valley-Infographic-english.gif" width="600">
 </p>
 
 Sports Data Valley (SDV) is een Nederlands data- en onderzoeksplatform dat sportprestaties, gezondheid en welzijn verbetert door middel van data-analyse. Het initiatief, ondersteund door onder andere TNO en NOC*NSF, brengt topsport, wetenschap en breedtesport samen om datagedreven beslissingen te faciliteren.
