@@ -1,3 +1,4 @@
+![Sport Data Valley GIF](https://info.sportdatavalley.nl/path-to-gif.gif)
 
 Sports Data Valley (SDV) is een Nederlands data- en onderzoeksplatform dat sportprestaties, gezondheid en welzijn verbetert door middel van data-analyse. Het initiatief, ondersteund door onder andere TNO en NOC*NSF, brengt topsport, wetenschap en breedtesport samen om datagedreven beslissingen te faciliteren.
 
