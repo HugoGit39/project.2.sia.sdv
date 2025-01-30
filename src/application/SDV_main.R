@@ -19,9 +19,9 @@ library('here')
 
 # * 2.0 info ----
 
-BASE_URL <- 'https://app.sportdatavalley.nl'
-API_PATH <- '/api/v1'
-AUTH_HEADER <- 'Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIzMDQxIiwic2NwIjoidXNlciIsImF1ZCI6bnVsbCwiaWF0IjoxNzM3NjM4Mzg5LCJleHAiOjE3NDAyMzAzODksImp0aSI6IjE0ZWZhMjVlLWQ3YWMtNDFhNS05MjgxLWI5NTM5NmEwY2YwOSJ9.P_TQPwZQe9OojeFjiUbUnbGIYocca1JM9fmWgG1jnYk'
+BASE_URL <- Sys.getenv("BASE_URL")
+API_PATH <- Sys.getenv("API_PATH")
+AUTH_HEADER <- Sys.getenv("AUTH_HEADER")
 
 # * 3.0 functions ----
 
