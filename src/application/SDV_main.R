@@ -27,24 +27,23 @@ AUTH_HEADER <- Sys.getenv("AUTH_HEADER")
 # * 3.1 Retrieve a list of your datasets ----
 
 # load get_my_metadata function
-source(here('get_my_metadata.R'))
+source(here('src', 'function', 'get_my_metadata.R'))
 
 # * 3.2 Retrieve a list of your network data ----
 
 # load get_my_metadata function ----
-source(here('get_network_metadata.R'))
+source(here('src', 'function', 'get_network_metadata.R'))
 
 # * 3.3 Retrieve a list of datasets from a specific group ----
-
-source(here('get_group_data.R'))
+source(here('src', 'function', 'get_group_data.R'))
 
 # * 3.4 Retrieve the raw data from a dataset in the platform ----
-
-source(here('get_raw.R'))
+source(here('src', 'function', 'get_raw.R'))
 
 # * 3.5 Retrieve a single dataset from the platform and handle it according to its type ----
+source(here('src', 'function', 'get_data.R'))
 
-source(here('get_data.R'))
+
 
 
 

@@ -19,5 +19,7 @@ get_raw <- function(data_id) {
                    add_headers(Authorization = AUTH_HEADER),
                    config(followlocation = 0L))
   response2 <- GET(headers(response1)$Location)
-  return(response_2)
+  return(response2)
 }
+
+
