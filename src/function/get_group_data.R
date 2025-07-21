@@ -9,9 +9,18 @@
 #
 #############################################################################################################
 
+get_group_info <- function(group_id) {
+  url <- sprintf('%s%s/groups/%s', BASE_URL, API_PATH, group_id)
+  r <- GET(url, add_headers(Authorization = AUTH_HEADER))
+  response_data <- content(r, as = 'parsed')
+  return(response_data)
+}
+
 get_group_data <- function(group_id, page = 1) {
   url <- sprintf('%s%s/groups/%s/recent_activity?page=%s', BASE_URL, API_PATH, group_id, page)
   r <- GET(url, add_headers(Authorization = AUTH_HEADER))
   response_data <- content(r, as='parsed')
   return(response_data)
 }
+
+

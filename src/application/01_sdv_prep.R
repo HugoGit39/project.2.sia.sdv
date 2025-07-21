@@ -1,11 +1,10 @@
 ####################################################################################################
 #
-# R script for Sports Data Valley]
+# R script for Sports Data Valley
 #
 # Getting started: https://jupyterhub.app.sportdatavalley.nl/user/3044/lab/tree/examples/R%20-%20Getting%20started.ipynb
 #
 # API Endpoints: https://app.sportdatavalley.nl/developer/api-docs/index.html
-#
 #
 ####################################################################################################
 
@@ -18,9 +17,11 @@ library('here')
 
 # * 2.0 info ----
 
+#file.edit("~/.Renviron")
 BASE_URL <- Sys.getenv("BASE_URL")
 API_PATH <- Sys.getenv("API_PATH")
 AUTH_HEADER <- Sys.getenv("AUTH_HEADER")
+GROUP_NO <- Sys.getenv("GROUP_NO")
 
 # * 3.0 functions ----
 
