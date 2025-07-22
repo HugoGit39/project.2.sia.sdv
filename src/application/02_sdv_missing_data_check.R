@@ -24,24 +24,45 @@ for (i in seq_along(response_gr_pr$group_memberships)) {
   )
 }
 
-# EXTRA - get detailed info per user
+# * 3.0 get all activity data  ----
 
-response_gr_ds <- get_group_data(GROUP_NO)
+response_gr_ds <- get_all_group_rec_act(GROUP_NO)
 
-id_list <- list()
+activity_data <- list()
 
-for (i in seq_along(response_gr_ds$data)) {
-  id_list[[i]] <- c(
-    id = response_gr_ds$data[[i]]$owner$id,
-    date = response_gr_ds$data[[i]]$updated_at,
-    first_name = response_gr_ds$data[[i]]$owner$first_name,
-    last_name = response_gr_ds$data[[i]]$owner$last_name
+for (i in seq_along(response_gr_ds)) {
+  owner <- response_gr_ds[[i]]$owner
+  sdo <- response_gr_ds[[i]]$structured_data_objects
+  metadatum <- response_gr_ds[[i]]$metadatum
+  
+  # Default NULLs
+  heart_intra_day <- NULL
+  dateTime <- NULL
+  
+  if (length(sdo) > 0 && length(sdo[[1]]$data_rows) > 0) {
+    data_row <- sdo[[1]]$data_rows[[1]]
+    
+    if (!is.null(data_row$heart_intra_day)) {
+      heart_intra_day <- data_row$heart_intra_day
+    }
+    
+    if (!is.null(data_row$dateTime)) {
+      dateTime <- data_row$dateTime
+    }
+  }
+  
+  activity_data[[i]] <- list(
+    id = owner$id,
+    first_name = owner$first_name,
+    last_name = owner$last_name,
+    heart_intra_day = heart_intra_day,
+    dateTime = dateTime,
+    versioned_data_object_id = metadatum$versioned_data_object_id
   )
 }
 
-# * 2.0 loop per user over daily date  ----
+# * 4.0 combine user id & activity data plus filter out heart_intra_day = half day AND/OR = NULL  ----
 
-response <- get_data(1306091)
 
 
 

@@ -38,11 +38,8 @@ source(here('src', 'function', 'get_network_metadata.R'))
 # * 3.3 Retrieve a list of datasets from a specific group ----
 source(here('src', 'function', 'get_group_data.R'))
 
-# * 3.4 Retrieve the raw data from a dataset in the platform ----
-source(here('src', 'function', 'get_raw.R'))
-
-# * 3.5 Retrieve a single dataset from the platform and handle it according to its type ----
-source(here('src', 'function', 'get_data.R'))
+# * 3.4 Retrieve a single dataset from the platform and handle it according to its type ----
+source(here('src', 'function', 'get_individual_data.R'))
 
 
 

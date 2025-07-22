@@ -13,6 +13,10 @@ library(plotly)
 
 response <- get_data(1306091)
 
+#check all elements of VDO
+names(meta$versioned_data_object$structured_data_objects[[1]]$data_rows[[1]])
+
+
 ll <- response$versioned_data_object$structured_data_objects[[1]]$data_rows[[1]]
 
 
