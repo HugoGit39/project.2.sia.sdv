@@ -8,10 +8,9 @@
 
 # * 1.0 library ----
 
-library(ggplot2)
-library(plotly)
 
-response <- get_data(1306091)
+
+response <- get_data(1308552)
 
 #check all elements of VDO
 names(meta$versioned_data_object$structured_data_objects[[1]]$data_rows[[1]])

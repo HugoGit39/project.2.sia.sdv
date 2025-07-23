@@ -10,10 +10,13 @@
 
 # * 1.0 library ----
 
-library('httr')
-library('lubridate')
-library('rjson')
-library('here')
+library(httr)
+library(lubridate)
+library(rjson)
+library(here)
+library(tidyverse)
+library(ggplot2)
+library(plotly)
 
 # * 2.0 info ----
 
@@ -31,8 +34,6 @@ GROUP_NO <- Sys.getenv("GROUP_NO")
 source(here('src', 'function', 'get_my_metadata.R'))
 
 # * 3.2 Retrieve a list of your network data ----
-
-# load get_my_metadata function ----
 source(here('src', 'function', 'get_network_metadata.R'))
 
 # * 3.3 Retrieve a list of datasets from a specific group ----
