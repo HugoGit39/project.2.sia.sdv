@@ -1,7 +1,7 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 <p align="center">
-  <img src="https://info.sportdatavalley.nl/wp-content/uploads/SDV_logo-1.png" >
+  <img src="[https://info.sportdatavalley.nl/wp-content/uploads/SDV_logo-1.png](https://raw.githubusercontent.com/HugoGit39/project.2.sia.sdv/refs/heads/main/www/SiAxSDV.png)" >
 </p>
 
 ## About
