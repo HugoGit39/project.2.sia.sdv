@@ -9,18 +9,20 @@ About
 How to Use This Repository
 Step 1: Setup and Authentication
 <p align="justify"> Create a <code>.Renviron</code> file with your API credentials and group ID: </p>
-ini
-Copy
-Edit
+
+```r
 BASE_URL=https://app.sportdatavalley.nl
 API_PATH=/api/v1
 AUTH_HEADER=Bearer your-token
 GROUP_NO=your-group-id
+```
+
 <p align="justify"> Install required R packages: </p>
-less
-Copy
-Edit
+
+```r
 install.packages(c("httr", "lubridate", "rjson", "here", "tidyverse", "plotly", "data.table"))
+```
+
 Step 2: Retrieve Group Information
 <p align="justify"> Use the provided function <code>get_group_info()</code> to list all members in your SDV group. This step creates a <code>profile_list</code> object with user IDs and names. </p>
 Step 3: Download Activity Data
