@@ -5,7 +5,8 @@
 </p>
 
 About
-<p align="justify"> This repository contains R scripts for connecting to the <strong>Sports Data Valley (SDV) API</strong> to retrieve wearable data from users (Fitbit, Garmin) in research groups, quantify <strong>missing or incomplete heart rate time series</strong>, and provide interactive visualization tools for researchers. </p> <p align="justify"> The pipeline is part of the <em>Stress in Action</em> consortium (Research Theme 2), which focuses on reliable real-time measurement of daily life stress and its impact on health using wearable technology. </p> <p align="center"> <img src="https://stress-in-action.nl/wp-content/uploads/2023/05/Measurements_3.jpg" alt="Measurements Image" width="60%"> </p>
+<p align="justify"> This repository contains R scripts for connecting to the <strong>Sports Data Valley (SDV) API</strong> to retrieve wearable data from users (Fitbit, Garmin) in research groups, quantify <strong>missing or incomplete heart rate time series</strong>, and provide interactive visualization tools for researchers. </p> <p align="justify"> The pipeline is part of the <em>Stress in Action</em> consortium (Research Theme 2), which focuses on reliable real-time measurement of daily life stress and its impact on health using wearable technology. 
+  
 How to Use This Repository
 Step 1: Setup and Authentication
 <p align="justify"> Create a <code>.Renviron</code> file with your API credentials and group ID: </p>
