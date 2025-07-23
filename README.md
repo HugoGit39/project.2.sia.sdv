@@ -1,8 +1,9 @@
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 
 <p align="center">
-  <img src="[[https://info.sportdatavalley.nl/wp-content/uploads/SDV_logo-1.png](https://raw.githubusercontent.com/HugoGit39/project.2.sia.sdv/refs/heads/main/www/SiAxSDV.png)](https://raw.githubusercontent.com/HugoGit39/project.2.sia.sdv/refs/heads/main/www/SiAxSDV.png)" >
+  <img src="https://raw.githubusercontent.com/HugoGit39/project.2.sia.sdv/refs/heads/main/www/SiAxSDV.png" alt="SiA x SDV Logo" width="400">
 </p>
+
 
 ## About
 <p align="justify"> This repository contains R scripts for connecting to the <strong>Sports Data Valley (SDV) API</strong> to retrieve wearable data from users (Fitbit, Garmin) in research groups, quantify <strong>missing or incomplete heart rate time series</strong>, and provide interactive visualization tools for researchers. </p> <p align="justify"> The pipeline is part of the <em>Stress in Action</em> consortium (Research Theme 2), which focuses on reliable real-time measurement of daily life stress and its impact on health using wearable technology. 
