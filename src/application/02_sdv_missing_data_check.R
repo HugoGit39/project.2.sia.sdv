@@ -30,7 +30,7 @@ for (i in seq_along(response_gr_ds)) {
   data_type <- response_gr_ds[[i]]$data_type$data_type
   
   # Skip if data_type is NULL or equals "fit_data_type"
-  if (data_type == "fit_data_type" || "strava_type") {
+  if (data_type == "fit_data_type") {
     next
   }
   
